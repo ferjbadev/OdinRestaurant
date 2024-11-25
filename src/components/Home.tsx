@@ -38,16 +38,21 @@ const Home = () => {
                 <div className="flex flex-col lg:flex-row items-center gap-8">
                     {/* Contenedor del texto */}
                     <div className="lg:w-1/2 space-y-6">
-                        <h2 className="text-3xl font-bold text-gray-800 mb-4">Valhalla is Calling You!!</h2>
+                        <div className='flex justify-center'>
+                            <h2 className="text-3xl font-bold text-gray-800">Valhalla is Calling You!!</h2>
+                        </div>
                         <p className="text-lg text-gray-700 leading-relaxed">
                             At our restaurant, we believe that every dish tells a story. Our chefs blend traditional techniques with innovative flavors, creating culinary masterpieces that delight the senses. From farm-fresh ingredients to artful presentation, we invite you to embark on a gastronomic adventure that celebrates the rich tapestry of flavors from around the world.
                         </p>
                         <p className="text-lg text-gray-700 leading-relaxed">
                             Whether you're savoring our signature dishes or exploring our seasonal specials, each bite is a testament to our passion for exceptional cuisine. Join us for an unforgettable dining experience where every meal is a celebration of taste, creativity, and the joy of sharing good food with great company.
                         </p>
-                        <button className="mt-6 bg-yellow-500 text-white font-bold py-3 px-6 rounded-full hover:bg-yellow-600 transition duration-300 ease-in-out transform hover:scale-105">
-                            Explore Our Menu
-                        </button>
+                        <div className='flex justify-center'>
+                            <button className="flex items-center bg-yellow-500 text-black font-bold py-3 px-6 rounded-full hover:bg-yellow-600 transition duration-300 ease-in-out transform hover:scale-105">
+                                <img src="barco.png" height={35} width={35} className="mr-4" />
+                                Explore Our Menu
+                            </button>
+                        </div>
                     </div>
                     {/* Contenedor de imagenes */}
                     <div className="py-5 w-[50%] mx-auto">

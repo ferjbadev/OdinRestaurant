@@ -33,13 +33,13 @@ const Home = () => {
     };
 
     return (
-        <section className="bg-gray-200 py-16">
+        <section className="bg-gray-200 py-2">
             <div className="container mx-auto px-4">
                 <div className="flex flex-col lg:flex-row items-center gap-8">
                     {/* Contenedor del texto */}
                     <div className="lg:w-1/2 space-y-6">
                         <div className='flex justify-center'>
-                            <h2 className="text-3xl font-bold text-gray-800">Valhalla is Calling You!!</h2>
+                            <h2 className="text-3xl font-bold  text-gray-800">Valhalla is Calling You!!</h2>
                         </div>
                         <p className="text-lg text-gray-700 leading-relaxed">
                             At our restaurant, we believe that every dish tells a story. Our chefs blend traditional techniques with innovative flavors, creating culinary masterpieces that delight the senses. From farm-fresh ingredients to artful presentation, we invite you to embark on a gastronomic adventure that celebrates the rich tapestry of flavors from around the world.
